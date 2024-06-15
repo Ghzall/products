@@ -1,0 +1,55 @@
+*{
+ padding: 0;
+ margin: 0; 
+ box-sizing: border-box;                    
+}
+
+.container{
+margin: auto; 
+width: 80%; 
+display: flex;    
+flex-direction: row;   
+flex-wrap: wrap;            
+}
+.card1{
+ margin: 30px;  
+ border: 2px solid gray;   
+ padding: 100px 20px; 
+ transition: 1s ease;    
+ text-align: center;
+ background-color: rgb(197, 204, 211);
+ box-shadow: 18px 5px 10px 5px rgba(1, 1, 1, 0.4);          
+}
+.card1:hover{
+ transform: scale(1.2);                     
+}
+.card1 h3{
+   margin-top: 40px;
+   color: rgb(145, 35, 16);    
+   font-size: 24px;  
+   font-weight: 800;             
+}
+#div1{
+   width: 250px;   
+   height: auto;
+   margin:100px auto;
+   background-color: rgb(197, 204, 211); 
+   color: rgb(145, 35, 16); 
+   border: 2px solid gray; 
+   box-shadow: 18px 5px 10px 5px rgba(1, 1, 1, 0.4); 
+   letter-spacing: 1px; 
+   font-size: 1.2em;   
+   font-weight: 700;        
+}
+#divPrice{
+   width: 250px;   
+   height: auto;
+   margin:100px auto;
+   background-color: rgb(197, 204, 211); 
+   color: rgb(145, 35, 16); 
+   border: 2px solid gray; 
+   box-shadow: 18px 5px 10px 5px rgba(1, 1, 1, 0.4); 
+   letter-spacing: 1px; 
+   font-size: 1.2em;   
+   font-weight: 700;                    
+}
